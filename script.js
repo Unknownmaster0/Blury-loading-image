@@ -23,8 +23,3 @@ function updateBlur() {
   if (i >= 100) text.classList.add('hidden');
   setTimeout(updateBlur, 20);
 }
-
-// work after some time or taking more time than document object
-// window.onload = () => {
-//   console.log(`page is loaded successfully😁`);
-// };
